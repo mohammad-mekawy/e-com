@@ -21588,7 +21588,7 @@ figure {
     .navbar-default .navbar-form {
         margin: 15px 0 0;
         position: absolute;
-        right: -35px;
+        right: -10vw;
     }
     .call-back-popup {
         width: 90%;
