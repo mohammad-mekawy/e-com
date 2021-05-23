@@ -19388,7 +19388,7 @@ figure {
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.1);
     /* background-size: 1200px 856px; */
     cursor: pointer;
-    background-size: auto;
+    background-size: contain;
     background-position: center;
 }
 
@@ -19398,12 +19398,12 @@ figure {
 
 .logo2 {
     background-image: url(../img/Customers\ logo/2.png);
-    background-position: -275px -40px;
+    /* background-position: -275px -40px; */
 }
 
 .logo3 {
     background-image: url(../img/Customers\ logo/3.png);
-    background-position: -280px -25px;
+    /* background-position: -280px -25px; */
 }
 
 .logo4 {
@@ -19479,8 +19479,8 @@ figure {
 }
 
 .logo22 {
-    background-image: url(../img/Customers\ logo/37.png);
-    background-position: -280px -25px;
+    background-image: url(../img/Customers\ logo/45.png);
+    /* background-position: -280px -25px; */
 }
 
 .logo23 {
@@ -20774,7 +20774,7 @@ figure {
 }
 
 .logo22:after {
-    content: "GM";
+    content: "oporto";
     color: #fff;
     display: block;
     position: absolute;
@@ -21587,6 +21587,8 @@ figure {
     .navbar-default .navbar-collapse,
     .navbar-default .navbar-form {
         margin: 15px 0 0;
+        position: absolute;
+        right: -35px;
     }
     .call-back-popup {
         width: 90%;

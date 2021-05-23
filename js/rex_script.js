@@ -213,7 +213,7 @@
 
 
   /**Bubble Logo JS**/
-  const SCROLL_SPEED = 3;
+  const SCROLL_SPEED = .3;
   const NOISE_SPEED = 0.004;
   const NOISE_AMOUNT = 5;
   const CANVAS_WIDTH = 2800;
