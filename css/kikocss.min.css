@@ -291,3 +291,10 @@ canvas {
     background-position: 50% 50%;
     z-index: 5;
 }
+
+.footer-address {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 60px 0px;
+}
