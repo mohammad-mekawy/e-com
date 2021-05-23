@@ -662,7 +662,6 @@ $(document).ready(function() {
         description.text(descriptionArray[i % descriptionLength]);
         setTimeout(function() {
             loop(i + 1);
-            description.addClass("rotate-text");
         }, 3050);
     }
     loop(0);

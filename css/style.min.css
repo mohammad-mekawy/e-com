@@ -774,6 +774,7 @@ section.services h1 span {
 .services-text {
     float: right;
     padding: 0 0 0 25px;
+    z-index: 5;
 }
 
 .services-text-wrap {
@@ -5919,31 +5920,6 @@ header {
     z-index: 999;
 }
 
-@-webkit-keyframes rotate-text {
-    0% {
-        opacity: 0;
-    }
-    30% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 1;
-    }
-    70% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
-}
-
-.rotate-text {
-    -webkit-animation: rotate-text 3.05s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
-    -moz-animation: rotate-text 3.05s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
-    -o-animation: rotate-text 3.05s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
-    animation: rotate-text 3.05s cubic-bezier(0.645, 0.045, 0.355, 1) infinite;
-}
-
 .testimonials-slider {
     background: url(../img/third-bg.png);
     background-size: 100% 100%;
@@ -6270,7 +6246,7 @@ button {
 .brand-logo img {
     display: block;
     min-height: 60px;
-    max-height: 80px;
+    max-height: 120px;
     max-width: 100%;
     margin: 0 auto;
     display: block;
@@ -19410,168 +19386,141 @@ figure {
     height: 172px;
     border-radius: 50%;
     box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.1);
-    background-image: url(https://happenize.ae/wp-content/uploads/2020/05/clients.png);
-    background-size: 1200px 856px;
+    /* background-size: 1200px 856px; */
+    cursor: pointer;
+    background-size: auto;
+    background-position: center;
 }
 
 .logo1 {
-    background-position: 8px 0;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/1.png);
 }
 
 .logo2 {
-    background-position: -170px -3px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/2.png);
+    background-position: -275px -40px;
 }
 
 .logo3 {
-    background-position: -341px -3px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/3.png);
+    background-position: -280px -25px;
 }
 
 .logo4 {
-    background-position: -514px -3px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/4.png);
 }
 
 .logo5 {
-    background-position: -691px -3px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/5.png);
 }
 
 .logo6 {
-    background-position: -854px -3px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/6.png);
 }
 
 .logo7 {
-    background-position: -1026px -3px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/7.png);
 }
 
 .logo8 {
-    background-position: 5px -180px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/8.png);
 }
 
 .logo9 {
-    background-position: -165px -180px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/9.png);
 }
 
 .logo10 {
-    background-position: -515px -180px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/10.png);
 }
 
 .logo11 {
-    background-position: -686px -180px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/11.png);
 }
 
 .logo12 {
-    background-position: -681px -180px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/40.png);
 }
 
 .logo13 {
-    background-position: -854px -176px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/13.png);
 }
 
 .logo14 {
-    background-position: -1037px -176px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/14.png);
 }
 
 .logo15 {
-    background-position: 0 -346px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/15.png);
 }
 
 .logo16 {
-    background-position: -170px -346px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/16.png);
 }
 
 .logo17 {
-    background-position: -345px -346px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/17.png);
 }
 
 .logo18 {
-    background-position: -516px -340px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/18.png);
 }
 
 .logo19 {
-    background-position: -683px -346px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/19.png);
 }
 
 .logo20 {
-    background-position: -860px -346px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/20.png);
 }
 
 .logo21 {
-    background-position: -1032px -346px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/21.png);
 }
 
 .logo22 {
-    background-position: 7px -514px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/37.png);
+    background-position: -280px -25px;
 }
 
 .logo23 {
-    background-position: -166px -520px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/23.png);
 }
 
 .logo24 {
-    background-position: -338px -520px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/24.png);
 }
 
 .logo25 {
-    background-position: -511px -520px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/25.png);
 }
 
 .logo26 {
-    background-position: -682px -515px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/26.png);
 }
 
 .logo27 {
-    background-position: -855px -515px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/27.png);
 }
 
 .logo28 {
-    background-position: -1036px -515px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/28.png);
 }
 
 .logo29 {
-    background-position: 7px -690px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/44.png);
 }
 
 .logo30 {
-    background-position: -170px -690px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/30.png);
 }
 
 .logo31 {
-    background-position: -340px -690px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/31.png);
 }
 
 .logo32 {
-    background-position: -512px -690px;
-    cursor: pointer;
+    background-image: url(../img/Customers\ logo/32.png);
 }
 
 .logo1:hover::before {
@@ -19607,7 +19556,7 @@ figure {
 }
 
 .logo1:after {
-    content: "Enayati";
+    content: "Sajaya";
     color: #fff;
     display: block;
     position: absolute;
@@ -19665,7 +19614,7 @@ figure {
 }
 
 .logo2:after {
-    content: "Abanos";
+    content: "DUBAI WORLD TRADE CENTER";
     color: #fff;
     display: block;
     position: absolute;
@@ -19673,10 +19622,10 @@ figure {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 73%;
+    width: 95%;
     text-align: center;
     background: #fd5c63;
-    height: 39px;
+    height: 55px;
     font-size: 20px;
     padding: 10px;
     border-radius: 50px;
@@ -19723,7 +19672,7 @@ figure {
 }
 
 .logo3:after {
-    content: "AL GHURAIR";
+    content: "DP WORLD";
     color: #fff;
     display: block;
     position: absolute;
@@ -19781,7 +19730,7 @@ figure {
 }
 
 .logo4:after {
-    content: "AL Burj";
+    content: "HAMRIYAH FREE ZONE";
     color: #fff;
     display: block;
     position: absolute;
@@ -19789,10 +19738,10 @@ figure {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 73%;
+    width: 95%;
     text-align: center;
     background: #fd5c63;
-    height: 39px;
+    height: 55px;
     font-size: 20px;
     padding: 10px;
     border-radius: 50px;
@@ -19839,7 +19788,7 @@ figure {
 }
 
 .logo5:after {
-    content: "Baniyas";
+    content: "YVOLV";
     color: #fff;
     display: block;
     position: absolute;
@@ -19897,7 +19846,7 @@ figure {
 }
 
 .logo6:after {
-    content: "Mc Arthur";
+    content: "BEST MED OPINION";
     color: #fff;
     display: block;
     position: absolute;
@@ -19955,7 +19904,7 @@ figure {
 }
 
 .logo7:after {
-    content: "Al Naboodah";
+    content: "GARGASH HOSPITAL";
     color: #fff;
     display: block;
     position: absolute;
@@ -20013,7 +19962,7 @@ figure {
 }
 
 .logo8:after {
-    content: "World Security";
+    content: "Allied Medical Center";
     color: #fff;
     display: block;
     position: absolute;
@@ -20024,7 +19973,7 @@ figure {
     width: 95%;
     text-align: center;
     background: #fd5c63;
-    height: 39px;
+    height: 55px;
     font-size: 20px;
     padding: 10px;
     border-radius: 50px;
@@ -20071,7 +20020,7 @@ figure {
 }
 
 .logo9:after {
-    content: "Yoga Life";
+    content: "TARABICHI";
     color: #fff;
     display: block;
     position: absolute;
@@ -20129,7 +20078,7 @@ figure {
 }
 
 .logo10:after {
-    content: "Cartier Paris";
+    content: "Sambucol";
     color: #fff;
     display: inline-block;
     position: absolute;
@@ -20187,7 +20136,7 @@ figure {
 }
 
 .logo11:after {
-    content: "Bawabat Al Sharq mall";
+    content: "DUBAI SKY CLINIC";
     color: #fff;
     display: block;
     position: absolute;
@@ -20198,7 +20147,7 @@ figure {
     width: 99%;
     text-align: center;
     background: #fd5c63;
-    height: 39px;
+    height: 55px;
     font-size: 14px;
     padding: 10px;
     border-radius: 50px;
@@ -20245,7 +20194,7 @@ figure {
 }
 
 .logo12:after {
-    content: "Young Ladies Sharjah";
+    content: "RAWABINA";
     color: #fff;
     display: inline-block;
     position: absolute;
@@ -20253,7 +20202,7 @@ figure {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 98%;
+    width: 85%;
     text-align: center;
     background: #fd5c63;
     height: 39px;
@@ -20303,7 +20252,7 @@ figure {
 }
 
 .logo13:after {
-    content: "Tomini";
+    content: "healthigo";
     color: #fff;
     display: block;
     position: absolute;
@@ -20361,7 +20310,7 @@ figure {
 }
 
 .logo14:after {
-    content: "Al Tayyar";
+    content: "Hub of Consciousness";
     color: #fff;
     display: block;
     position: absolute;
@@ -20419,7 +20368,7 @@ figure {
 }
 
 .logo15:after {
-    content: "STRAC";
+    content: "yogalife";
     color: #fff;
     display: block;
     position: absolute;
@@ -20477,7 +20426,7 @@ figure {
 }
 
 .logo16:after {
-    content: "Iscent Dubai";
+    content: "ARENCO";
     color: #fff;
     display: block;
     position: absolute;
@@ -20535,7 +20484,7 @@ figure {
 }
 
 .logo17:after {
-    content: "Storall";
+    content: "Bawabat AlSharq";
     color: #fff;
     display: block;
     position: absolute;
@@ -20543,7 +20492,7 @@ figure {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 73%;
+    width: 90%;
     text-align: center;
     background: #fd5c63;
     height: 39px;
@@ -20593,7 +20542,7 @@ figure {
 }
 
 .logo18:after {
-    content: "SME Advisor";
+    content: "Al Ghurair";
     color: #fff;
     display: block;
     position: absolute;
@@ -20651,7 +20600,7 @@ figure {
 }
 
 .logo19:after {
-    content: "Dubai WTC";
+    content: "Baniyas";
     color: #fff;
     display: block;
     position: absolute;
@@ -20767,7 +20716,7 @@ figure {
 }
 
 .logo21:after {
-    content: "The Loft";
+    content: "Al Burj";
     color: #fff;
     display: block;
     position: absolute;
@@ -20824,8 +20773,8 @@ figure {
     visibility: hidden;
 }
 
-.logo21:after {
-    content: "OPSO";
+.logo22:after {
+    content: "GM";
     color: #fff;
     display: block;
     position: absolute;
@@ -20833,7 +20782,7 @@ figure {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 95%;
+    width: 65%;
     text-align: center;
     background: #fd5c63;
     height: 39px;
@@ -20883,7 +20832,7 @@ figure {
 }
 
 .logo23:after {
-    content: "Cartier Paris";
+    content: "McARTHUR";
     color: #fff;
     display: block;
     position: absolute;
@@ -20941,7 +20890,7 @@ figure {
 }
 
 .logo24:after {
-    content: "Hamriyah Free Zone";
+    content: "WESTEND";
     color: #fff;
     display: block;
     position: absolute;
@@ -20998,8 +20947,8 @@ figure {
     visibility: hidden;
 }
 
-.logo21:after {
-    content: "Fresh Market";
+.logo25:after {
+    content: "FOREST";
     color: #fff;
     display: block;
     position: absolute;
@@ -21057,7 +21006,7 @@ figure {
 }
 
 .logo26:after {
-    content: "Sign Trade";
+    content: "THE private LABEL";
     color: #fff;
     display: block;
     position: absolute;
@@ -21115,7 +21064,7 @@ figure {
 }
 
 .logo27:after {
-    content: "Swiss Auto";
+    content: "La Secret";
     color: #fff;
     display: block;
     position: absolute;
@@ -21173,7 +21122,7 @@ figure {
 }
 
 .logo28:after {
-    content: "dubai";
+    content: "Cartier";
     color: #fff;
     display: block;
     position: absolute;
@@ -21231,7 +21180,7 @@ figure {
 }
 
 .logo29:after {
-    content: "I Acomedi";
+    content: "DOH";
     color: #fff;
     display: block;
     position: absolute;
@@ -21289,7 +21238,7 @@ figure {
 }
 
 .logo30:after {
-    content: "Gitex Furt Stars";
+    content: "ODEEM";
     color: #fff;
     display: block;
     position: absolute;
@@ -21297,7 +21246,7 @@ figure {
     left: 0;
     right: 0;
     margin: 0 auto;
-    width: 95%;
+    width: 75%;
     text-align: center;
     background: #fd5c63;
     height: 39px;
@@ -21347,7 +21296,7 @@ figure {
 }
 
 .logo31:after {
-    content: "24-7 Storagge";
+    content: "ELILHAAM";
     color: #fff;
     display: block;
     position: absolute;
@@ -21405,7 +21354,7 @@ figure {
 }
 
 .logo32:after {
-    content: "Rawabina";
+    content: "ZANMODA";
     color: #fff;
     display: block;
     position: absolute;

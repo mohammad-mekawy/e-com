@@ -213,7 +213,7 @@
 
 
   /**Bubble Logo JS**/
-  const SCROLL_SPEED = 0.3;
+  const SCROLL_SPEED = 3;
   const NOISE_SPEED = 0.004;
   const NOISE_AMOUNT = 5;
   const CANVAS_WIDTH = 2800;
@@ -252,7 +252,7 @@
       { x: 75, y: 103 },
       { x: 413, y: 367 },
       { x: 2895, y: 271 },
-      /*{ x: 1990, y: 75 }*/
+      //   { x: 1990, y: 75 }
   ];
 
   class Bubbles {
