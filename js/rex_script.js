@@ -61,9 +61,9 @@
 
   $(window).scroll(function() {
       if ($(window).scrollTop() >= 100) {
-          $('#one-header').addClass('sticky-head');
+          $('.one-header').addClass('sticky-head');
       } else {
-          $('#one-header').removeClass('sticky-head');
+          $('.one-header').removeClass('sticky-head');
       }
   });
 

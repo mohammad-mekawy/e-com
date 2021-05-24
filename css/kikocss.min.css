@@ -298,3 +298,11 @@ canvas {
     text-align: center;
     padding: 60px 0px;
 }
+
+.footer-address strong {
+    text-transform: uppercase;
+}
+
+.footer-address li:last-child {
+    margin-bottom: 20px;
+}
