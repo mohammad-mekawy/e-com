@@ -325,3 +325,11 @@ span.red-part {
     -moz-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
 }
+
+@media (max-width: 700px) {
+    .upper-footer {
+        background-color: #0000008a;
+        padding: 15px;
+        border-radius: 90px;
+    }
+}
