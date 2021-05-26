@@ -25,8 +25,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemail1'])){
         $formErrors[] = "يجب اضافة البريد الإلكترونى";
     }
     if(empty($formErrors)){
-            // $emails = array('kashif@happenize.com','info@happenize.com','bd@happenize.com');
-            $emails = array('muhammadshaalan1422@gmail.com');
+            $emails = array('kashif@happenize.com','info@happenize.com','bd@happenize.com');
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -34,13 +33,13 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemail1'])){
 				$mail->isSMTP();                            // Set mailer to use SMTP
 				$mail->Host = 'smtp.gmail.com';             // Specify main and backup SMTP servers
 				$mail->SMTPAuth = true;                     // Enable SMTP authentication
-				$mail->Username = 'muhammadshaalan1422@gmail.com';          // SMTP username
-				$mail->Password = '1101997552000s'; // SMTP password
+				$mail->Username = '';          // SMTP username
+				$mail->Password = ''; // SMTP password
 				$mail->SMTPSecure = 'ssl';                            
 				$mail->Port = 465;  
 				$mail->isHTML(true);  // Set email format to HTML
 
-				$mail->setFrom('muhammadshaalan1422@gmail.com');
+				$mail->setFrom('');
 				$mail->addAddress($emails[$i]); 
 
 				//$mail->isHTML(true);  // Set email format to HTML
@@ -115,8 +114,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemail6'])){
         $formErrors[] = "يجب اضافة البريد الإلكترونى";
     }
     if(empty($formErrors)){
-            // $emails = array('kashif@happenize.com','info@happenize.com','bd@happenize.com');
-            $emails = array('muhammadshaalan1422@gmail.com');
+            $emails = array('kashif@happenize.com','info@happenize.com','bd@happenize.com');
 			
 			for($i=0;$i<count($emails);$i++){
 				$mail = new PHPMailer;
@@ -124,8 +122,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemail6'])){
 				$mail->isSMTP();                            // Set mailer to use SMTP
 				$mail->Host = 'smtp.gmail.com';             // Specify main and backup SMTP servers
 				$mail->SMTPAuth = true;                     // Enable SMTP authentication
-				$mail->Username = 'muhammadshaalan1422@gmail.com';          // SMTP username
-				$mail->Password = '1101997552000s'; // SMTP password
+				$mail->Username = '';          // SMTP username
+				$mail->Password = ''; // SMTP password
 				$mail->SMTPSecure = 'ssl';                            
 				$mail->Port = 465;  
 				$mail->isHTML(true);  // Set email format to HTML
