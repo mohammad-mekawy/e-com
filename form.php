@@ -128,7 +128,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['sendemail6'])){
 				$mail->Port = 465;  
 				$mail->isHTML(true);  // Set email format to HTML
 
-				$mail->setFrom('muhammadshaalan1422@gmail.com');
+				$mail->setFrom('');
 				$mail->addAddress($emails[$i]); 
 
 				//$mail->isHTML(true);  // Set email format to HTML
